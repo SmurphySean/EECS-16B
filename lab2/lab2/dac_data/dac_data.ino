@@ -9,7 +9,7 @@
 #define READ_PIN        P6_0
 
 /* Set number of bits */
-#define BITS            3
+#define BITS            4
 
 
 int val = 0;
@@ -152,6 +152,6 @@ int get_max_loops(){
       return 14;
     }
     else if (BITS == 4){
-      return 60;
+      return 100;
     }
 }
